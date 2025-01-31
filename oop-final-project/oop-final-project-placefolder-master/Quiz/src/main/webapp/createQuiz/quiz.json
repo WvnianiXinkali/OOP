@@ -1,0 +1,70 @@
+{
+    "creator_id": 123,
+    "quiz_name": "Random Quiz",
+    "category": 1,
+    "description": "A quiz with random questions and answers",
+    "tags": [
+        "super",
+        "funny",
+        "ketchup"
+    ],
+    "is_single_page": false,
+    "can_be_practiced": true,
+    "rand_question_order": false,
+    "questions": [
+        {
+            "question_type": 2,
+            "question": "What is the capital of France?",
+            "answers": [
+                {
+                    "answer": "Paris",
+                    "is_correct": true
+                },
+                {
+                    "answer": "London",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Berlin",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "question_type": 2,
+            "question": "Which of the following is a mammal?",
+            "answers": [
+                {
+                    "answer": "Shark",
+                    "is_correct": false
+                },
+                {
+                    "answer": "Dolphin",
+                    "is_correct": true
+                },
+                {
+                    "answer": "Salmon",
+                    "is_correct": false
+                }
+            ]
+        },
+        {
+            "question_type": 5,
+            "question": "What is 7 + 3?",
+            "answers": [
+                {
+                    "answer": "10",
+                    "is_correct": true
+                },
+                {
+                    "answer": "9",
+                    "is_correct": false
+                },
+                {
+                    "answer": "12",
+                    "is_correct": false
+                }
+            ]
+        }
+    ]
+}
